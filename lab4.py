@@ -6,7 +6,7 @@ TA:Gerarado Barraza
 Course: CS 2302
 Assigment: Lab 4B
 Date of last modification: 10/29/2019
-Purpose of program: uses reb black tree and avl tree to find anagrams
+Purpose of program: uses reb black tree and avl tree and B-tree to find anagrams
 """
 
 from redblacktree import RedBlackTree

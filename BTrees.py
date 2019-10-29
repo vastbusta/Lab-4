@@ -4,8 +4,9 @@ Instructor: Diego Aguirre
 TA:Gerarado Barraza
 Course: CS 2302
 Assigment: Lab 4B
-Date of last modification: 10/24/2019
+Date of last modification: 10/29/2019
 Purpose of program: btree class and node
+modified btree given by Diego Aguirre
 """
 
 
