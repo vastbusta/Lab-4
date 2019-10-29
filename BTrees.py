@@ -11,13 +11,13 @@ Purpose of program: btree class and node
 
 class BTreeNode:
     # Constructor
-    def __init__(self, keys=[], children=[], is_leaf=True, max_num_keys=5):
+    def __init__(self, keys=[], children=[], is_leaf=True, max_num_keys=101):
         self.keys = keys
         self.children = children
         self.is_leaf = is_leaf
-        if max_num_keys < 3:  # max_num_keys must be odd and greater or equal to 3
-            max_num_keys = 3
-        if max_num_keys % 2 == 0:  # max_num_keys must be odd and greater or equal to 3
+        if max_num_keys < 99:  # max_num_keys must be odd and greater 
+            max_num_keys = 99
+        if max_num_keys % 2 == 0:  # max_num_keys must be odd
             max_num_keys += 1
         self.max_num_keys = max_num_keys
 
@@ -27,7 +27,7 @@ class BTreeNode:
 
 class BTree:
     # Constructor
-    def __init__(self, max_num_keys=5):
+    def __init__(self, max_num_keys=101):
         self.max_num_keys = max_num_keys
         self.root = BTreeNode(max_num_keys=max_num_keys)
 
